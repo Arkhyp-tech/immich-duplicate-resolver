@@ -32,9 +32,9 @@ function processGroup() {
     }
 
     // Check: Stop if group contains more than 2 photos
-    if (uniqueCards.length > 2) {
-        console.warn(`In current group: ${uniqueCards.length} photos (more than 2). Automated processing stopped for manual inspection.`);
-        return "TOO_MANY_CARDS";
+    //if (uniqueCards.length > 2) {
+      //  console.warn(`In current group: ${uniqueCards.length} photos (more than 2). Automated processing stopped for manual inspection.`);
+        //return "TOO_MANY_CARDS";
     }
 
     // 3. Read filenames and current status
