@@ -35,7 +35,7 @@ function processGroup() {
     //if (uniqueCards.length > 2) {
       //  console.warn(`In current group: ${uniqueCards.length} photos (more than 2). Automated processing stopped for manual inspection.`);
         //return "TOO_MANY_CARDS";
-    }
+    //}
 
     // 3. Read filenames and current status
     const items = uniqueCards.map(card => {
