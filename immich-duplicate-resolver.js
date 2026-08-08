@@ -107,4 +107,4 @@ function startBatch(limit = 100, delayMs = 900) {
         // Stop if more than 2 photos found in group
         if (savedName === "TOO_MANY_CARDS") {
             stopBatch();
-            console.log("Process stopped: found a group with more than 2 photo);
+            console.log("Process stopped: found a group with more than 2 photo");
